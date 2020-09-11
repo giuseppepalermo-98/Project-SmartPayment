@@ -1,0 +1,15 @@
+#menu{
+	display: none;
+}
+
+body{
+    background-color: white;
+	color:black;
+	font-size: 100%;
+	line-height: 110%;
+	font-family: serif, time;
+}
+
+a::after{
+	content: "(" attr(href) ")"
+}

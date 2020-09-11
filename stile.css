@@ -1,0 +1,332 @@
+
+.nome{
+    text-transform: unset;
+    color: white;
+    text-align: center;
+}
+
+h1 a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.sottotitoli{
+   float: left;
+   margin-left: 1em;
+   text-transform: uppercase;
+}
+
+.UtenteSaldo{
+  text-align: right;
+}
+
+header{
+    min-width: 30em;
+  max-width: 100%; 
+  float: none;
+	clear: both;
+	background-color: blue;
+}
+
+
+#contenuto{
+    margin-top: 7em;
+    text-align: center;
+}
+
+#menu{
+    float:left;
+    display: block;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 100%;
+    background-color: black;
+    background: url(./img/background.png) repeat;
+}
+
+table { border: 0.3ex solid blue;
+    margin-top:3%;
+    } 
+
+.form_paga{
+    position: relative;
+    margin-left: 32%;
+    margin-top: 7em;
+    margin-bottom: 5em;
+  }
+
+  .form_log{
+    position: relative;
+    margin-left: 30%;
+    margin-top: 7em;
+    margin-bottom: 5em;
+  }
+
+  .attenzione{
+    position: relative;
+    margin-top: 7em;
+    margin-left: 30%;
+    margin-bottom: 5em;
+  }
+
+th,td { border: 0.1ex solid black;
+     text-align:center; 
+     padding:2ex;}
+
+#myfooter { 
+            float:none;
+            clear: both;
+            
+	          border-top: thick solid blue;
+            padding-top: 0.3em;
+            font-family: "Times New Roman", Georgia, Serif;
+            font-style: italic; 
+            font-size: 80%; 
+        }
+
+#myfooter a:hover {
+            background: transparent;
+             }
+
+p.citazione { text-align: center; font-style: italic }
+
+img.foto{
+    position: center;
+    display: block; 
+    margin: 0 auto; 
+}
+
+div.cornice{
+  height: 40%;
+  width: auto;
+}
+
+.disabled {
+    pointer-events: none;
+   
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 1em;
+    padding-top: 0em;
+  
+    position: relative;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  nav a:hover {
+    color: #000;
+  }
+  
+  nav a::before {
+    
+    display: block;
+    height: 0.5em;
+    background-color: black;
+  
+    position: absolute;
+  }
+  
+.lista_pagamenti{
+  margin: auto;
+  margin-top: 7em;
+ margin-bottom: 5em;
+}
+
+  .form_login{
+    position: relative;
+    margin-left: 35%;
+    margin-top: 7em;
+    margin-bottom: 5em;
+  }
+
+  .ricevuta{
+    position: relative;
+    margin-left: 32%;
+    margin-top: 7em;
+    margin-bottom: 5em;
+  }
+ 
+  @media (max-width:500px){
+    .nome{
+      text-transform: unset;
+      color: white;
+      text-align: center;
+  }
+  
+  h1 a:visited{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sottotitoli{
+     float: left;
+     margin-left: 1em;
+     text-transform: uppercase;
+  }
+  
+  .UtenteSaldo{
+    text-align: right;
+  }
+  
+  header{
+      min-width: 30em;
+    max-width: 100%; 
+    float: none;
+    clear: both;
+    background-color: blue;
+  }
+  
+  
+  #contenuto{
+      margin-top: 7em;
+      text-align: center;
+  }
+  
+  #menu{
+      float:left;
+      display: block;
+  }
+  
+  
+  body{
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: 100%;
+      background-color: black;
+      background: url(./img/background.png) repeat;
+  }
+  
+  table { border: 0.3ex solid blue;
+      margin-top:3%;
+      } 
+  
+  .form_paga{
+      position: relative;
+      margin-left: 32%;
+      margin-top: 7em;
+      margin-bottom: 5em;
+    }
+  
+    .form_log{
+      position: relative;
+      margin-left: 30%;
+      margin-top: 7em;
+      margin-bottom: 5em;
+    }
+  
+    .attenzione{
+      position: relative;
+      margin-top: 7em;
+      margin-left: 30%;
+      margin-bottom: 5em;
+    }
+  
+  th,td { border: 0.1ex solid black;
+       text-align:center; 
+       padding:2ex;}
+  
+  #myfooter { 
+              float:none;
+              clear: both;
+              
+              border-top: thick solid blue;
+              padding-top: 0.3em;
+              font-family: "Times New Roman", Georgia, Serif;
+              font-style: italic; 
+              font-size: 80%; 
+          }
+  
+  #myfooter a:hover {
+              background: transparent;
+               }
+  
+  p.citazione { text-align: center; font-style: italic }
+  
+  img.foto{
+      position: center;
+      display: block; 
+      margin: 0 auto; 
+  }
+  
+  div.cornice{
+    height: 40%;
+    width: 40%;
+  }
+  
+  .disabled {
+      pointer-events: none;
+     
+  }
+  
+  
+  nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    
+    nav li {
+      display: inline-block;
+      margin-left: 1em;
+      padding-top: 0em;
+    
+      position: relative;
+    }
+    
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1em;
+    }
+    
+    nav a:hover {
+      color: #000;
+    }
+    
+    nav a::before {
+      
+      display: block;
+      height: 0.5em;
+      background-color: black;
+    
+      position: absolute;
+    }
+    
+  .lista_pagamenti{
+    margin: auto;
+    margin-top: 7em;
+   margin-bottom: 5em;
+  }
+  
+    .form_login{
+      position: relative;
+      margin-left: 35%;
+      margin-top: 7em;
+      margin-bottom: 5em;
+    }
+  
+    .ricevuta{
+      position: relative;
+      margin-left: 32%;
+      margin-top: 7em;
+      margin-bottom: 5em;
+    }
+  }
